@@ -51,7 +51,7 @@ export default function Weather() {
         <>
             <div className="main">
                 <div className="searchBox">
-                    <h1 style={{ color: "black", fontsize: "45px",textShadow:"3px 3px 16px black"}}>Live Weather</h1>
+                    <h1 style={{ color: "black", fontsize: "50px",textShadow:"8px 8px 50px black"}}>Live Weather</h1>
                     <form onSubmit={handlesubmit}>
                         <label htmlFor="city" id="head">City</label><br />
                         <input type="text" id="city" name="city" value={city} onChange={handlechange} /><br />
